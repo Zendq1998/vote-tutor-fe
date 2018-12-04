@@ -1,0 +1,49 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: none; 
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size: 16px;
+}
+html {
+  height: 100%;
+}
+body {
+    background-color: #F2F2F2;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color:#000; 
+    outline:none;
+}
+:focus { 
+    outline: none; 
+} 
+
+ol, ul { 
+    list-style: none 
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0 
+} 
+blockquote:before, blockquote:after, q:before, q:after { 
+    content: ""
+} 
+blockquote, q { 
+    quotes: '"' '"' "'" "'"
+} 
+input, textarea { 
+    margin: 0; 
+    padding: 0 
+} 
+hr { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    color: #000; 
+    background-color: #000; 
+    height: 1px 
+}
